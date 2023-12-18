@@ -1,0 +1,50 @@
+:root {
+    --dark-blue: #352477;
+    --purple: #9c71bb;
+    --light-purple: #c372eb;
+}
+
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display:flex;
+    font-size:125%;
+    justify-content:space-between;
+    padding: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+#scoreSection { 
+    display:flex;
+    line-height:1.5em;
+    font-size:150%;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items:center;
+}
+
+
+#inputField {
+    display:flex;
+}
+
+#inputField input {
+    margin: 0 10px 0 10px;
+}
+
+#inputField button {
+    background-color: var(--dark-blue);
+    border-radius:8px;
+    color:white;
+    font-size: 70%;
+    padding: 15%;
+}
