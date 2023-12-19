@@ -1,9 +1,11 @@
+/* Pseudo-class Selector */
 :root {
     --dark-blue: #352477;
     --purple: #9c71bb;
     --light-purple: #c372eb;
 }
 
+/* Universal Selector */
 * {
     box-sizing:border-box;
     padding: 0;
@@ -11,6 +13,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* Element Selectors */
 header {
     display:flex;
     font-size:125%;
@@ -35,6 +38,7 @@ section p {
     margin: 15px 0 15px 0;
 }
 
+/* Id Selectors */
 #start-game {
     align-self:center;
     background-color: var(--dark-blue);
