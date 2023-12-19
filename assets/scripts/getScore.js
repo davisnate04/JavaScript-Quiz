@@ -6,7 +6,7 @@ const highScore = JSON.parse(localStorage.getItem("highScore")) || [];
 
 // Sorts the high score and limits the high score to 5
 function addInitials() {
-if (input.textContent = "") {
+if (input.value = "") {
     alert("Invalid Username");
 } else {
     const newScore = {
