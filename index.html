@@ -17,7 +17,9 @@
             answers will penalize your score/time<br> by ten seconds!</p>
         <button onclick="document.location = 'pages/quiz.html'" id="start-game">Start Quiz</button>
         <script>
+            if (!localStorage.getItem("highScore")) {
             localStorage.setItem("highScore", JSON.stringify([]));
+            }
         </script>
     </section>
     </main>
