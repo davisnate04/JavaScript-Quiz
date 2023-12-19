@@ -6,13 +6,13 @@ This is a quiz on the basics of JavaScript. This quiz comes with multiple choice
 
 
 ## Screenshots
-![startmenu](https://github.com/davisnate04/JavaScript-Quiz/assets/111401054/ebe4e8eb-a62b-4ea2-ab08-b0560c7f5997)
+![startmenu](https://github.com/davisnate04/JavaScript-Quiz/assets/111401054/e0ca931c-a6d8-4318-85be-ccb0da913ce8)
 
-![quiz](https://github.com/davisnate04/JavaScript-Quiz/assets/111401054/802a3034-1035-4329-94eb-b584f404abed)
+![quiz](https://github.com/davisnate04/JavaScript-Quiz/assets/111401054/91cbee29-35b8-4cb6-a354-7b7d970b326e)
 
-![initials](https://github.com/davisnate04/JavaScript-Quiz/assets/111401054/19cce894-19bf-4ea1-a1c2-4e5f3e57aea4)
+![Score](https://github.com/davisnate04/JavaScript-Quiz/assets/111401054/c85f75b5-e338-4dc4-b748-63e2d0382be6)
 
-![highscores](https://github.com/davisnate04/JavaScript-Quiz/assets/111401054/a7610715-d4bb-4760-ae49-1f50dc177629)
+![High Score Leaderboard](https://github.com/davisnate04/JavaScript-Quiz/assets/111401054/0b2ece79-3228-4e1d-97d4-3406579b6d63)
 
 ## Website Link
 https://davisnate04.github.io/JavaScript-Quiz/index.html
