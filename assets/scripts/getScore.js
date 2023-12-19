@@ -1,8 +1,8 @@
 const totalScore = document.getElementsByClassName("totalScore");
 const input = document.getElementById("scoreInput");
 const button = document.getElementById("submit");
-const score = localStorage.getItem("Time");
-const highScore = JSON.parse(localStorage.getItem("highScore") || []);
+const score = JSON.parse(localStorage.getItem("Time"));
+const highScore = JSON.parse(localStorage.getItem("highScore")) || [];
 
 function addInitials() {
 if (input.textContent = "") {
@@ -10,7 +10,7 @@ if (input.textContent = "") {
 } else {
     const newScore = {
         "score": score,
-        "intials": input.value
+        "intials": input.value.trim()
     };
 
     highScore.push(newScore);
@@ -22,14 +22,11 @@ if (input.textContent = "") {
     localStorage.setItem("highScore", JSON.stringify(highScore));
 
     input.value = "";
-    window.location.assign('index.html');
+    window.location.assign('highscores.html');
     }
 }
 
 window.addEventListener('load', function() {
-    if (highScore === null) {
-    const highScoreDefault = localStorage.setItem("highScore", JSON.stringify([]));
-    }
 
     for (const child of totalScore) {
         child.textContent = score;
