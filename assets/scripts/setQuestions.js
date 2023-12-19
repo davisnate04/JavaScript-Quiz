@@ -53,7 +53,7 @@ function checkAnswer(event) {
             } else {
                 isCorrect.textContent = "Wrong!"
                 
-                time -= 5;
+                time -= 10;
                 getQuestions(number += 1);
                 return number;
             }
