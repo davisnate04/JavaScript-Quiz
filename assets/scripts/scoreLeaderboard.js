@@ -6,9 +6,11 @@ list.innerHTML = highScore.map(newScore => {
     return `<li class="scoreListItem">${newScore.intials} - ${newScore.score}</li>`;
 }).join("");
 
-
-resetHighScore.addEventListener("click", function() {
+function reset() {
     localStorage.setItem("highScore", []);
 
     list.innerHTML = "";
-});
+};
+
+
+resetHighScore.addEventListener("click", reset, false);
