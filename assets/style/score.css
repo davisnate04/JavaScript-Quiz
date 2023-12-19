@@ -37,6 +37,11 @@ header a {
     display:flex;
 }
 
+#scoreInput {
+    font-size:100%;
+    width:50%;
+}
+
 #inputField input {
     margin: 0 10px 0 10px;
 }
