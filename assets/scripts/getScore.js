@@ -4,6 +4,7 @@ const button = document.getElementById("submit");
 const score = JSON.parse(localStorage.getItem("Time"));
 const highScore = JSON.parse(localStorage.getItem("highScore")) || [];
 
+// Sorts the high score and limits the high score to 5
 function addInitials() {
 if (input.textContent = "") {
     alert("Invalid Username");
