@@ -60,12 +60,19 @@ section p {
 }
 
 #quiz button {
+    color:white;
+    background-color: var(--dark-blue);
+    border-radius: 8px;
     margin-top: 10px;
     padding-left: 10px;
     font-size:55%;
     text-align:left;
     height:43px;
     width:200px;
+}
+
+#quiz button:hover {
+    background-color: var(--light-purple);
 }
 
 #quiz hr {

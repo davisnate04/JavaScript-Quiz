@@ -57,3 +57,7 @@ header a {
     font-size: 70%;
     padding: 15%;
 }
+
+#inputField button:hover {
+    background-color: var(--light-purple);
+}
